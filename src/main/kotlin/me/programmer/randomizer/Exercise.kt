@@ -5,7 +5,9 @@ enum class ExerciseType {
 }
 
 enum class ExerciseCategory {
-    PATTERNS
+    PATTERNS,
+    SPRING_BOOT,
+    MONITORING
 }
 
 data class Exercise(val type: ExerciseType, val category: ExerciseCategory, val task: String)
