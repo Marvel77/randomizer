@@ -10,4 +10,13 @@ enum class ExerciseCategory {
     MONITORING
 }
 
-data class Exercise(val type: ExerciseType, val category: ExerciseCategory, val task: String)
+enum class ExerciseLevel {
+    BASIC,
+    ADVANCED
+}
+
+data class Exercise(val type: ExerciseType, val category: ExerciseCategory, val level: ExerciseLevel, val task: String) {
+    override fun toString(): String {
+        return task
+    }
+}
