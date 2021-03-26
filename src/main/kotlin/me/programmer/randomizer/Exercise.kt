@@ -7,7 +7,8 @@ enum class ExerciseType {
 enum class ExerciseCategory {
     PATTERNS,
     SPRING_BOOT,
-    MONITORING
+    MONITORING,
+    K8S
 }
 
 enum class ExerciseLevel {

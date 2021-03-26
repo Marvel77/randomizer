@@ -155,6 +155,42 @@ fun main() {
                 "Придумайте пример из реальной жизни и имплементируйте Посетитель"))
 
 
+    /** k8s practice */
+    randomizerOfBasics.addExercise(Exercise(ExerciseType.PRACTICE, ExerciseCategory.K8S, ExerciseLevel.BASIC,
+        "K8S. "
+            + "Создайте под из образа, "
+            + "зайдите на него с хост машины через браузер или curl, "
+            + "С помощью команды выведите подробную информацию о поде, "
+            + "С помощью команды зайдите внутрь контейнера в поде, "
+            + "Затем удалите под"))
+
+
+    randomizerOfBasics.addExercise(Exercise(ExerciseType.PRACTICE, ExerciseCategory.K8S, ExerciseLevel.BASIC,
+        "K8S. "
+                + "Создайте под из манифеста, предварительно в команде выполните «сухой запуск» и провалидируйте манифест, "
+                + "зайдите на него с хост машины через браузер или curl, "
+                + "С помощью команды выведите подробную информацию о поде, "
+                + "С помощью команды зайдите внутрь контейнера в поде, "
+                + "Затем удалите под"))
+
+    randomizerOfBasics.addExercise(Exercise(ExerciseType.PRACTICE, ExerciseCategory.K8S, ExerciseLevel.BASIC,
+        "K8S. "
+                + "Создайте под из манифеста, предварительно в команде выполните «сухой запуск» и провалидируйте манифест, "
+                + "зайдите на него с хост машины через браузер или curl, "
+                + "С помощью команды измените манифест пода, измените образ, "
+                + "С помощью команды выведите подробную информацию о поде, "
+                + "Затем удалите под"))
+
+    randomizerOfBasics.addExercise(Exercise(ExerciseType.PRACTICE, ExerciseCategory.K8S, ExerciseLevel.BASIC,
+        "K8S. "
+                + "Опишите liveness probe readiness probe для контейнера, "
+                + "Пояснить разницу между ними, "
+                + "Создайте под из манифеста, предварительно в команде выполните «сухой запуск» и провалидируйте манифест, "
+                + "С помощью команды выведите подробную информацию о поде, "
+                + "Затем удалите под"))
+
+
+
     //Advanced
 
     val randomizerOfAdvanced = Randomizer()
